@@ -70,6 +70,32 @@ body{font-family: "Trebuchet MS", Verdana, sans-serif;}
 		background-color: #91c378;
 		color: black;
 	}#inscripcio:hover{background-color: #46a138; color:white;}
+	.miniatura{
+		cursor: pointer;
+		display: table;
+		margin:10px;
+		background-size: cover;
+		background-position: center;
+		width: 75vw; max-width: 220px;
+		height: 75vw; max-height: 220px;
+		position: relative;
+		border-radius: 15px;
+	}
+	.miniaturaText{
+		display: table-cell;
+		vertical-align: bottom;
+		position: absolute;
+		top:70%;
+		bottom:0px;
+		right:0px;
+		left:0px;
+		background-color: rgba(255,255,255,0.5); 
+		padding: 10px;
+	}
+	.miniatura:hover .miniaturaText{
+		font-weight: bold;
+		background-color: rgba(255,255,255,1); 
+	}
 	/*section.xarxes,section.kraal_monis,section.carrecs,section.banc,section.links,section.sap,*/
 	section.center{text-align: center;}
 	.agrupament h1,.agrupament h2,.agrupament h3{color: #46a138; border-color: #46a138;}
@@ -94,6 +120,11 @@ body{font-family: "Trebuchet MS", Verdana, sans-serif;}
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
+	}
+	.container-flex2{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.cal-mes{min-width: 200px;margin-top: 20px;}
 	.cal-dia{line-height:1.5;}
