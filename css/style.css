@@ -62,6 +62,14 @@ body{font-family: "Trebuchet MS", Verdana, sans-serif;}
 	h2{border-bottom: 2px solid black; text-align: left;}
 	section p{padding-top: 10px;}
 	section ul{padding: 20px;}
+	#inscripcio{
+		text-decoration: none;
+		display: block;
+		margin: 10 auto;
+		padding: 10px;
+		background-color: #91c378;
+		color: black;
+	}#inscripcio:hover{background-color: #46a138; color:white;}
 	/*section.xarxes,section.kraal_monis,section.carrecs,section.banc,section.links,section.sap,*/
 	section.center{text-align: center;}
 	.agrupament h1,.agrupament h2,.agrupament h3{color: #46a138; border-color: #46a138;}
