@@ -152,7 +152,7 @@ function getPhotos(){
 			container.innerHTML += string;
 		}
 	}
-	container.innerHTML += "<div class=\"moreButt\" onclick=\"getAllPhotos();\" id=\"morePhotos\">Mostra totes les fotos</div>";
+	//container.innerHTML += "<div class=\"moreButt\" onclick=\"getAllPhotos();\" id=\"morePhotos\">Mostra més fotos</div>";
 }
 function getAllPhotos(){
 	var addMoreButt = document.querySelector("#morePhotos");
